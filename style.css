@@ -30,3 +30,109 @@ img, picture, svg, video {
     
 }
 /* --- Variables --- */
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffeedf;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #145434;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #145434;
+}
+
+header span {
+    color: #145434;
+}
+
+header div div{
+    width: 2rem;
+    height: 3px;
+    background-color:#145434;
+    margin: 6px 0;
+}
+
+/* main */
+
+main {
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 3rem 1rem;
+}
+
+main section {
+    flex: 1 0 250px;
+    background-color: #145434;
+    color: #ffeedf;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+main h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffeedf;
+}
+
+section div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    color: #145434;
+    background-color: #ffeedf;
+    font-size: 1.3rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid #145434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section p:nth-child(2) {
+    padding-top: 0.6rem;
+}
+
+section p:nth-child(3) {
+    font-weight: bold;
+}
+
+section button {
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    width: 50%;
+    padding: 0.7rem;
+    color: #145434 ;
+    background-color: #ffeedf;
+    border: 2px solid #145434;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+button span:nth-child(2) {
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
